@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELIEDITH</title>
+    <style>
+        body {
+            font-family: "Comic Sans", sans-serif;
+            background-color: beige;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #A2D2FF;
+        }
+
+        h1, h2 {
+            font-family: "Georgia", serif;
+            margin: 0;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #FFC0CB;
+        }
+
+        .content {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .content img {
+            max-width: 40%;
+        }
+
+        .carrusel {
+            display: flex;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .carrusel img {
+            max-width: 49%;
+        }
+
+        footer {
+            background-color: #A2D2FF;
+            padding: 10px;
+            text-align: right;
+        }
+
+        footer img {
+            width: 30px;
+            margin: 5px;
+        }
+
+        .content div {
+            background-image: url('10.AVIF');
+            padding: 15px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo01.PNG" width="50" height="50" alt="Logo DELIEDITH">
+        <h1>DELIEDITH</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="B1.HTML">Nosotros</a>
+            <a href="B2.HTML">Productos</a>
+            <a href="B3.HTML">Contactanos</a>
+            <a href="B4.HTML">Cotizaciones</a>
+        </nav>
+    </header>
+
+    <section id="principal" class="content">
+        <img src="01.JPEG" width="500" height="500" alt="Imagen Descriptiva de DELIEDITH">
+        <div>
+            <h2>Deleita tus sentidos, un postre a la vez: la magia del sabor en cada creación</h2>
+            <p>Bienvenidos a DELIEDITH, donde cada postre es una obra maestra elaborada con amor y dedicación. Con años de experiencia en la repostería, nos esforzamos por brindarte la mejor experiencia gastronómica en cada bocado.</p>
+        </div>
+    </section>
+
+    <div class="carrusel">
+
+        <div>
+            <marquee direction="ri">
+                <img src="02.JPEG" width="200" height="200" alt="Descripción de imagen 2">
+                <img src="03.JPEG" width="200" height="200" alt="Descripción de imagen 3"></marquee>
+            <!-- ... -->
+        </div>
+
+        <div>
+            <marquee direction="down">
+                <img src="04.JPEG" width="200" height="200" alt="Descripción de imagen 4">
+                <img src="05.JPEG" width="200" height="200" alt="Descripción de imagen 5"></marquee>
+            <!-- ... -->
+        </div>
+        <div>
+            <marquee direction="right">
+                <img src="06.JPEG" width="200" height="200" alt="Descripción de imagen 4">
+                <img src="07.JPEG" width="200" height="200" alt="Descripción de imagen 5"></marquee>
+            <!-- ... -->
+        </div>
+    </div>
+
+    <footer>
+        <div>
+        <a href="https://api.whatsapp.com/qr/ISNRB4CP5UESC1?autoload=1&app_absent=0"><img src="w.PNG" alt="WhatsApp"></a>
+        <a href="https://instagram.com/deli_edith?igshid=MzRlODBiNWFlZA=="><img src="ig.PNG" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
